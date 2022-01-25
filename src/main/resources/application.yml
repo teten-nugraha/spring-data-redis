@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sample-spring-redis
+  redis:
+    host: localhost
+    database: 0
+    port: 6379
+    password: password
+    timeout: 60000
