@@ -1,0 +1,33 @@
+
+GET http://localhost:8085/students
+
+<> 2022-01-25T112428.200.json
+<> 2022-01-25T112332.200.json
+<> 2022-01-25T091519.200.json
+<> 2022-01-25T091310.200.json
+
+###
+POST http://localhost:8085/students
+Content-Type: application/json
+
+{
+  "name": "Abu",
+  "grade": "A"
+}
+
+<> 2022-01-25T112328.201.json
+<> 2022-01-25T112322.201.json
+<> 2022-01-25T112314.201.json
+
+###
+PUT http://localhost:8085/students/8395b6a8-c8a5-41cb-8682-a92642139235
+Content-Type: application/json
+
+{
+  "name": "Teten1",
+  "grade": "A1"
+}
+
+<> 2022-01-25T112309.404.json
+<> 2022-01-25T091547.404.json
+<> 2022-01-25T091512.404.json
